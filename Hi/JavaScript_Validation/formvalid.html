@@ -1,0 +1,64 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="formvalid.css"> 
+    </head>
+    <body>
+
+        <div id="main">
+          
+            <div id="form_layout">
+                <h2>Form Validation</h2>
+				
+	
+	<form  onsubmit='return formValidation()'><br><p id="head"></p><br>
+		<label>Full Name:</label>
+		<input type='text' id='firstname'/><br />
+		<p id="p1"></p>			
+		
+		<label>Username(6-8 characters):</label>
+		<input type='text' id='username' /><br />
+		<p id="p2"></p>
+		
+		<label>Email:</label>
+		<input type='text' id='email' /><br />
+		<p id="p3"></p>
+
+		<label>Password:</label>
+		<input type="Password" id="Password1"  /><br />
+	
+
+
+		<label>Password:</label>
+		<input type="Password" id="Password2"  /><br />
+		<p id="p11"></p>
+
+
+		<label>State:</label>
+		 <select id='state'>
+			<option>Please Choose</option>
+			<option>America</option>
+			<option>Australia</option>
+			<option>Sweden</option>
+			<option>Africa</option>
+		</select><br />
+		<p id="p4"></p> 
+
+		
+
+		<label>Phone Number: </label>
+		<input type='text' id='zip' /><br />
+		<p id="p6"></p> 
+
+		<input type='submit' id="submit" value='Check Form'/><br />
+	</form>
+
+            </div>
+           
+           
+            
+        </div>
+
+    </body>
+    <script src="formvalid.js"></script>
+</html>
